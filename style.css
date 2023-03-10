@@ -1,11 +1,14 @@
 /********** Template CSS **********/
 :root {
-  --primary: #00B87B;
+  --primary: rgb(0,17,34);
   --secondary: #314355;
   --light: #F2F2F2;
   --dark: #2C3E50;
 }
-
+body{
+    background: rgb(0,17,34);
+background: linear-gradient(180deg, rgba(0,17,34,1) 0%, rgba(0,34,85,1) 51%, rgba(0,17,34,1) 100%);
+}
 #spinner {
   opacity: 0;
   visibility: hidden;
